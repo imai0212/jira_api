@@ -61,7 +61,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "https://taskboard-f4b8c.web.app",
 ]
 
 ROOT_URLCONF = 'jira_api.urls'
